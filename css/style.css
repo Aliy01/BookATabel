@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(30deg, #4a95f7c0, #b24af7);
+}
+
+h3 {
+    margin: 10px;
+}
+
+
+/* h3::before {
+    position: absolute;
+    top: 155px;
+    left: 622.5px;
+    content: '';
+    width: 120px;
+    height: 1px;
+    background: #222;
+} */
+
+.content {
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.315);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.box {
+    width: 80%;
+    height: 400px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+#information-form {
+    width: 100%;
+    display: flex;
+    /* flex-direction: row; */
+}
+
+#information-form .add-form {
+    /* position: relative; */
+    width: 50%;
+}
+
+#information-form .search-panel {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 90%;
+    height: 40px;
+    margin: 5px;
+    outline: none;
+}
+
+.btn {
+    width: 90%;
+    height: 40px;
+    margin: 5px 5px;
+    border: 1px solid;
+    border-color: #000;
+    border-radius: 1px;
+    cursor: pointer;
+    background: black;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.search-btn {
+    background: #4a95f7;
+    border-color: #4a95f7;
+}
+
+table {
+    width: 100%;
+}
+
+thead th {
+    width: 30%;
+    height: 40px;
+    border: none;
+    background: #4a95f7;
+    color: #222;
+}
+
+tbody th {
+    width: 30%;
+    height: 40px;
+    border: none;
+    background: #f1f1f1;
+}
+
+tbody tr:hover {
+    background: #4a95f7;
+}
