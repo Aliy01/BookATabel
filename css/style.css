@@ -40,7 +40,7 @@ h3 {
     width: 80%;
     height: 400px;
     margin: 30px auto;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 #information-form {
